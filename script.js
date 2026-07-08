@@ -1,0 +1,1 @@
+console.log( "QR Industrial Supply website loaded successfully." );
