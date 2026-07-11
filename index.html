@@ -1,136 +1,662 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>QR Industrial Supply & Services</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        QR Industrial Supply | Motors, MRO & Industrial Products in Texas
+    </title>
+
+    <meta
+        name="description"
+        content="QR Industrial Supply provides electric motors, drives, pumps, valves, bearings, electrical components, safety products and MRO sourcing throughout Texas and the United States."
+    >
+
+    <meta
+        name="keywords"
+        content="industrial supply Texas, electric motors San Antonio, Marathon motors, Toshiba motors, MRO supplier Texas, pumps, valves, bearings, industrial equipment"
+    >
+
+    <meta name="theme-color" content="#a80000">
+
+    <link rel="icon" type="image/png" href="images/logo-qr.png">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-  <div class="logo">QR INDUSTRIAL</div>
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#services">Services</a>
-    <a href="#products">Products</a>
-    <a href="#industries">Industries</a>
-    <a href="#manufacturers">Manufacturers</a>
-    <a href="#contact">Contact</a>
-  </nav>
-</header>
-<div class="top-contact">
-    <span>🇺🇸 English: <strong>(210) 913-7405</strong></span>
-    <span>🇪🇸 Español: <strong>(210) 790-3077</strong></span>
-    <span>✉ sales@qrindustrialsupply.com</span>
-</div>
-<section id="home" class="hero">
-  <div class="hero-content">
-    <span>Industrial Supply • Maintenance • Construction</span>
-    <h1>Reliable Industrial Solutions for Texas</h1>
-    <p>
-      QR Industrial Supply & Services provides industrial products,
-      maintenance support, construction services and project solutions
-      for companies across Houston and Texas.
-    </p>
-    <a href="#contact" class="btn">Request a Quote</a>
-  </div>
-</section>
+    <!-- CONTACT BAR -->
+    <div class="top-bar">
+        <a href="tel:+12109137405">
+            English Sales: (210) 913-7405
+        </a>
 
-<section id="services" class="section">
-  <h2>Our Capabilities</h2>
+        <a href="tel:+12107903077">
+            Español: (210) 790-3077
+        </a>
 
-  <div class="grid">
-    <div class="card"><h3>Industrial Supply</h3><p>Equipment, parts and materials for industrial operations.</p></div>
-    <div class="card"><h3>Maintenance</h3><p>Preventive and corrective maintenance services.</p></div>
-    <div class="card"><h3>Construction</h3><p>Industrial construction and field support.</p></div>
-    <div class="card"><h3>Procurement</h3><p>Reliable sourcing for industrial products.</p></div>
-    <div class="card"><h3>Installation</h3><p>Mechanical and electrical equipment installation.</p></div>
-    <div class="card"><h3>Project Support</h3><p>Support for industrial projects and upgrades.</p></div>
-  </div>
-</section>
+        <a href="mailto:sales@qrindustrialsupply.com">
+            sales@qrindustrialsupply.com
+        </a>
+    </div>
 
-<section id="products" class="section dark">
-  <h2>Products We Supply</h2>
+    <!-- HEADER -->
+    <header class="site-header">
 
-  <div class="grid">
-    <div class="card"><h3>Electric Motors</h3><p>Motors, gear motors and drives.</p></div>
-    <div class="card"><h3>VFDs</h3><p>Variable frequency drives and controls.</p></div>
-    <div class="card"><h3>Pumps</h3><p>Industrial pumps and accessories.</p></div>
-    <div class="card"><h3>Bearings</h3><p>Bearings, seals and lubrication products.</p></div>
-    <div class="card"><h3>Valves</h3><p>Gate, globe, ball and check valves.</p></div>
-    <div class="card"><h3>Electrical Components</h3><p>Panels, breakers and industrial electrical supplies.</p></div>
-  </div>
-</section>
+        <a href="#home" class="brand" aria-label="QR Industrial home">
+            <img
+                src="images/logo-qr.png"
+                alt="QR Industrial Supply logo"
+            >
 
-<section id="industries" class="section">
-  <h2>Industries We Serve</h2>
+            <div class="brand-text">
+                <strong>QR INDUSTRIAL</strong>
+                <span>SUPPLY & SERVICES</span>
+            </div>
+        </a>
 
-  <div class="grid">
-    <div class="card"><h3>Oil & Gas</h3></div>
-    <div class="card"><h3>Petrochemical</h3></div>
-    <div class="card"><h3>Manufacturing</h3></div>
-    <div class="card"><h3>Water Treatment</h3></div>
-    <div class="card"><h3>Construction</h3></div>
-    <div class="card"><h3>Commercial Facilities</h3></div>
-  </div>
-</section>
+        <button
+            class="menu-button"
+            type="button"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+        >
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
 
-<section id="manufacturers" class="section dark">
-  <h2>Trusted Manufacturers</h2>
+        <nav class="main-navigation" aria-label="Main navigation">
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#capabilities">Capabilities</a>
+            <a href="#brands">Brands</a>
+            <a href="#industries">Industries</a>
+            <a href="#about">About</a>
+            <a href="#contact" class="nav-quote">Request a Quote</a>
+        </nav>
 
-  <div class="grid">
-    <div class="card"><h3>ABB</h3><p>Motors, Drives & Automation</p></div>
-    <div class="card"><h3>Siemens</h3><p>Industrial Automation</p></div>
-    <div class="card"><h3>Emerson</h3><p>Instrumentation & Valves</p></div>
-    <div class="card"><h3>Flowserve</h3><p>Pumps & Flow Control</p></div>
-    <div class="card"><h3>SKF</h3><p>Bearings & Lubrication</p></div>
-    <div class="card"><h3>Schneider Electric</h3><p>Electrical Solutions</p></div>
-  </div>
-</section>
+    </header>
 
-<section id="contact" class="section contact">
-  <h2>Contact QR Industrial Supply & Services</h2>
+    <main>
 
-  <div class="contact-info">
-    <p><strong>English Sales:</strong> +1 (210) 913-7405</p>
-    <p><strong>Ventas en Español:</strong> +1 (210) 790-3077</p>
-    <p><strong>Email:</strong> sales@qrindustrialsupply.com</p>
-    <p><strong>Website:</strong> www.qrindustrialsupply.com</p>
-  </div>
+        <!-- HERO -->
+        <section id="home" class="hero">
 
-  <form>
-    <input type="text" placeholder="Company Name">
-    <input type="text" placeholder="Contact Name">
-    <input type="email" placeholder="Email Address">
-    <input type="tel" placeholder="Phone Number">
-    <textarea placeholder="Tell us what product, service or project you need"></textarea>
-    <button type="submit">Submit Request</button>
-  </form>
-</section>
-  <h2>Request a Quote</h2>
+            <div class="hero-overlay"></div>
 
-  <form>
-    <input type="text" placeholder="Company Name">
-    <input type="text" placeholder="Contact Name">
-    <input type="email" placeholder="Email Address">
-    <input type="tel" placeholder="Phone Number">
-    <textarea placeholder="Tell us what product, service or project you need"></textarea>
-    <button type="submit">Submit Request</button>
-  </form>
-</section>
+            <div class="hero-content reveal">
 
-<a class="whatsapp whatsapp-en" href="https://wa.me/12109137405" target="_blank">English Sales</a>
+                <p class="eyebrow">
+                    INDUSTRIAL SUPPLY · MRO · PROCUREMENT · PROJECT SUPPORT
+                </p>
 
-<a class="whatsapp whatsapp-es" href="https://wa.me/12107903077" target="_blank">Español</a>
+                <h1>
+                    Industrial Solutions That Keep Your Operations Running
+                </h1>
 
-<footer>
-  <p><strong>QR Industrial Supply & Services</strong></p>
-  <p>A Division of QR Cleaning Supplies & Services LLC</p>
-  <p>Houston, Texas | qrindustrialsupply.com</p>
-</footer>
+                <p class="hero-description">
+                    Reliable sourcing of electric motors, drives, pumps,
+                    valves, bearings, electrical components, safety products
+                    and critical MRO materials for customers throughout Texas
+                    and the United States.
+                </p>
 
-<script src="script.js"></script>
+                <div class="hero-actions">
+                    <a href="#contact" class="button button-red">
+                        Request a Quote
+                    </a>
+
+                    <a href="tel:+12109137405" class="button button-outline">
+                        Call English Sales
+                    </a>
+                </div>
+
+                <div class="hero-points">
+                    <span>Fast Response</span>
+                    <span>Competitive Sourcing</span>
+                    <span>Industrial Support</span>
+                    <span>Texas Based</span>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- TRUST STRIP -->
+        <section class="trust-strip" aria-label="Company advantages">
+
+            <div>
+                <strong>Responsive Service</strong>
+                <span>Quick communication for time-sensitive requirements.</span>
+            </div>
+
+            <div>
+                <strong>Reliable Sourcing</strong>
+                <span>Industrial products from established manufacturers.</span>
+            </div>
+
+            <div>
+                <strong>Project Support</strong>
+                <span>Support for maintenance, construction and upgrades.</span>
+            </div>
+
+            <div>
+                <strong>Bilingual Assistance</strong>
+                <span>Professional service in English and Spanish.</span>
+            </div>
+
+        </section>
+
+        <!-- PRODUCTS -->
+        <section id="products" class="section section-light">
+
+            <div class="section-heading reveal">
+                <p class="eyebrow dark-eyebrow">PRODUCT CATEGORIES</p>
+                <h2>Industrial Products We Source & Supply</h2>
+                <p>
+                    Supporting maintenance, repair, operations, construction
+                    and capital projects with essential industrial products.
+                </p>
+            </div>
+
+            <div class="product-grid">
+
+                <article class="product-card reveal">
+                    <div class="product-number">01</div>
+                    <h3>Electric Motors</h3>
+                    <p>
+                        General-purpose, severe-duty, explosion-proof,
+                        vertical and specialty industrial motors.
+                    </p>
+                    <a href="#contact">Request motor pricing →</a>
+                </article>
+
+                <article class="product-card reveal">
+                    <div class="product-number">02</div>
+                    <h3>Variable Frequency Drives</h3>
+                    <p>
+                        Drives, motor controls, starters and automation
+                        components for industrial applications.
+                    </p>
+                    <a href="#contact">Request drive pricing →</a>
+                </article>
+
+                <article class="product-card reveal">
+                    <div class="product-number">03</div>
+                    <h3>Pumps & Components</h3>
+                    <p>
+                        Industrial pumps, repair parts, seals, couplings
+                        and related accessories.
+                    </p>
+                    <a href="#contact">Request pump pricing →</a>
+                </article>
+
+                <article class="product-card reveal">
+                    <div class="product-number">04</div>
+                    <h3>Valves & Flow Control</h3>
+                    <p>
+                        Ball, gate, globe, butterfly, check and control
+                        valves for industrial service.
+                    </p>
+                    <a href="#contact">Request valve pricing →</a>
+                </article>
+
+                <article class="product-card reveal">
+                    <div class="product-number">05</div>
+                    <h3>Bearings & Power Transmission</h3>
+                    <p>
+                        Bearings, belts, pulleys, gear reducers, seals,
+                        lubrication and transmission products.
+                    </p>
+                    <a href="#contact">Request bearing pricing →</a>
+                </article>
+
+                <article class="product-card reveal">
+                    <div class="product-number">06</div>
+                    <h3>Electrical Components</h3>
+                    <p>
+                        Breakers, enclosures, controls, transformers,
+                        wiring products and electrical accessories.
+                    </p>
+                    <a href="#contact">Request electrical pricing →</a>
+                </article>
+
+                <article class="product-card reveal">
+                    <div class="product-number">07</div>
+                    <h3>Pipe, Fittings & Flanges</h3>
+                    <p>
+                        Carbon steel, stainless steel and alloy piping
+                        materials for industrial applications.
+                    </p>
+                    <a href="#contact">Request piping pricing →</a>
+                </article>
+
+                <article class="product-card reveal">
+                    <div class="product-number">08</div>
+                    <h3>PPE & Safety Products</h3>
+                    <p>
+                        Gloves, eye protection, head protection, disposable
+                        products and workplace safety supplies.
+                    </p>
+                    <a href="#contact">Request safety pricing →</a>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- CAPABILITIES -->
+        <section id="capabilities" class="section capabilities">
+
+            <div class="capabilities-copy reveal">
+
+                <p class="eyebrow">OUR CAPABILITIES</p>
+
+                <h2>
+                    More Than Products. A Responsive Industrial Supply Partner.
+                </h2>
+
+                <p>
+                    QR Industrial Supply helps customers locate essential
+                    equipment, replacement parts and maintenance materials.
+                    Our objective is to respond quickly, communicate clearly
+                    and simplify industrial purchasing.
+                </p>
+
+                <a href="#contact" class="button button-red">
+                    Start a Sourcing Request
+                </a>
+
+            </div>
+
+            <div class="capability-list">
+
+                <article class="reveal">
+                    <span>01</span>
+                    <div>
+                        <h3>Industrial Procurement</h3>
+                        <p>
+                            Product sourcing for planned requirements and
+                            urgent maintenance needs.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="reveal">
+                    <span>02</span>
+                    <div>
+                        <h3>MRO Supply</h3>
+                        <p>
+                            Maintenance, repair and operating products for
+                            industrial and commercial facilities.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="reveal">
+                    <span>03</span>
+                    <div>
+                        <h3>Motor & Equipment Replacement</h3>
+                        <p>
+                            Assistance identifying compatible motors,
+                            drives and industrial components.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="reveal">
+                    <span>04</span>
+                    <div>
+                        <h3>Project & Shutdown Support</h3>
+                        <p>
+                            Coordinated sourcing for plant upgrades,
+                            construction and shutdown activities.
+                        </p>
+                    </div>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- BRANDS -->
+        <section id="brands" class="section brands-section">
+
+            <div class="section-heading reveal">
+                <p class="eyebrow dark-eyebrow">GLOBAL MANUFACTURERS</p>
+                <h2>Brands We Source & Supply</h2>
+                <p>
+                    We source products based on customer requirements.
+                    Brand availability and commercial authorization vary
+                    by product, territory and transaction.
+                </p>
+            </div>
+
+            <div class="brands-marquee">
+
+                <div class="brands-track">
+                    <span class="featured-brand">Marathon Motors</span>
+                    <span>Toshiba</span>
+                    <span>WEG</span>
+                    <span>Siemens</span>
+                    <span>ABB</span>
+                    <span>Baldor-Reliance</span>
+                    <span>Schneider Electric</span>
+                    <span>Emerson</span>
+                    <span>SKF</span>
+                    <span>Flowserve</span>
+                    <span>Parker</span>
+                    <span>Eaton</span>
+
+                    <!-- Repeated for continuous movement -->
+                    <span class="featured-brand">Marathon Motors</span>
+                    <span>Toshiba</span>
+                    <span>WEG</span>
+                    <span>Siemens</span>
+                    <span>ABB</span>
+                    <span>Baldor-Reliance</span>
+                    <span>Schneider Electric</span>
+                    <span>Emerson</span>
+                    <span>SKF</span>
+                    <span>Flowserve</span>
+                    <span>Parker</span>
+                    <span>Eaton</span>
+                </div>
+
+            </div>
+
+            <p class="brand-disclaimer reveal">
+                Brand names are used for product-identification purposes.
+                QR Industrial Supply does not represent itself as an authorized
+                distributor unless such authorization has been confirmed in writing.
+            </p>
+
+        </section>
+
+        <!-- INDUSTRIES -->
+        <section id="industries" class="section industries-section">
+
+            <div class="section-heading reveal">
+                <p class="eyebrow">INDUSTRIES WE SERVE</p>
+                <h2>Supporting Critical Operations</h2>
+            </div>
+
+            <div class="industries-grid">
+
+                <article class="reveal">
+                    <span>01</span>
+                    <h3>Oil & Gas</h3>
+                </article>
+
+                <article class="reveal">
+                    <span>02</span>
+                    <h3>Petrochemical</h3>
+                </article>
+
+                <article class="reveal">
+                    <span>03</span>
+                    <h3>Manufacturing</h3>
+                </article>
+
+                <article class="reveal">
+                    <span>04</span>
+                    <h3>Construction</h3>
+                </article>
+
+                <article class="reveal">
+                    <span>05</span>
+                    <h3>Water & Wastewater</h3>
+                </article>
+
+                <article class="reveal">
+                    <span>06</span>
+                    <h3>Commercial Facilities</h3>
+                </article>
+
+                <article class="reveal">
+                    <span>07</span>
+                    <h3>Food Processing</h3>
+                </article>
+
+                <article class="reveal">
+                    <span>08</span>
+                    <h3>Infrastructure</h3>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="section about-section">
+
+            <div class="about-visual reveal">
+                <img
+                    src="images/logo-qr.png"
+                    alt="QR Industrial Supply shield"
+                >
+            </div>
+
+            <div class="about-copy reveal">
+
+                <p class="eyebrow dark-eyebrow">ABOUT QR INDUSTRIAL</p>
+
+                <h2>
+                    Built to Serve Industrial Customers With Speed and Reliability
+                </h2>
+
+                <p>
+                    QR Industrial Supply & Services is a division of
+                    QR Cleaning Supplies & Services LLC, based in San Antonio,
+                    Texas. We support industrial and commercial customers with
+                    product sourcing, MRO supplies and project requirements.
+                </p>
+
+                <p>
+                    Our long-term objective is to build strong relationships
+                    with customers and manufacturers while becoming a trusted
+                    industrial supply resource throughout Texas.
+                </p>
+
+                <div class="about-values">
+                    <span>Integrity</span>
+                    <span>Responsiveness</span>
+                    <span>Reliability</span>
+                    <span>Customer Commitment</span>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="section contact-section">
+
+            <div class="contact-intro reveal">
+
+                <p class="eyebrow">REQUEST A QUOTE</p>
+
+                <h2>Tell Us What Your Operation Needs</h2>
+
+                <p>
+                    Send the manufacturer, model, specifications, quantity
+                    and required delivery date. Our team will review the
+                    request and respond as quickly as possible.
+                </p>
+
+                <div class="direct-contact">
+
+                    <a href="tel:+12109137405">
+                        <span>English Sales</span>
+                        <strong>(210) 913-7405</strong>
+                    </a>
+
+                    <a href="tel:+12107903077">
+                        <span>Ventas en Español</span>
+                        <strong>(210) 790-3077</strong>
+                    </a>
+
+                    <a href="mailto:sales@qrindustrialsupply.com">
+                        <span>Email</span>
+                        <strong>sales@qrindustrialsupply.com</strong>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <form
+                class="quote-form reveal"
+                action="mailto:sales@qrindustrialsupply.com"
+                method="post"
+                enctype="text/plain"
+            >
+
+                <label>
+                    Company Name
+                    <input
+                        type="text"
+                        name="Company"
+                        autocomplete="organization"
+                        required
+                    >
+                </label>
+
+                <label>
+                    Contact Name
+                    <input
+                        type="text"
+                        name="Contact"
+                        autocomplete="name"
+                        required
+                    >
+                </label>
+
+                <div class="form-row">
+
+                    <label>
+                        Email
+                        <input
+                            type="email"
+                            name="Email"
+                            autocomplete="email"
+                            required
+                        >
+                    </label>
+
+                    <label>
+                        Phone
+                        <input
+                            type="tel"
+                            name="Phone"
+                            autocomplete="tel"
+                        >
+                    </label>
+
+                </div>
+
+                <label>
+                    Product, Model or Service Required
+                    <input
+                        type="text"
+                        name="Product"
+                        required
+                    >
+                </label>
+
+                <label>
+                    Request Details
+                    <textarea
+                        name="Details"
+                        placeholder="Manufacturer, model, specifications, quantity and required delivery date"
+                        required
+                    ></textarea>
+                </label>
+
+                <button type="submit">
+                    Submit Quote Request
+                </button>
+
+                <p class="form-note">
+                    This form opens your email application. A direct online
+                    form-processing system will be added during the next phase.
+                </p>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <!-- WHATSAPP -->
+    <div class="floating-contact">
+
+        <a
+            href="https://wa.me/12109137405?text=Hello%20QR%20Industrial,%20I%20would%20like%20to%20request%20a%20quote."
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Contact English Sales on WhatsApp"
+        >
+            English Sales
+        </a>
+
+        <a
+            href="https://wa.me/12107903077?text=Hola%20QR%20Industrial,%20deseo%20solicitar%20una%20cotizaci%C3%B3n."
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Contact Spanish Sales on WhatsApp"
+        >
+            Español
+        </a>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+        <div class="footer-brand">
+            <img src="images/logo-qr.png" alt="QR Industrial Supply logo">
+
+            <div>
+                <strong>QR Industrial Supply & Services</strong>
+                <span>A Division of QR Cleaning Supplies & Services LLC</span>
+            </div>
+        </div>
+
+        <div class="footer-links">
+            <a href="#products">Products</a>
+            <a href="#capabilities">Capabilities</a>
+            <a href="#brands">Brands</a>
+            <a href="#industries">Industries</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="footer-contact">
+            <p>San Antonio, Texas, USA</p>
+            <a href="tel:+12109137405">English: (210) 913-7405</a>
+            <a href="tel:+12107903077">Español: (210) 790-3077</a>
+            <a href="mailto:sales@qrindustrialsupply.com">
+                sales@qrindustrialsupply.com
+            </a>
+        </div>
+
+        <div class="footer-bottom">
+            <p>
+                © <span id="currentYear"></span>
+                QR Industrial Supply & Services. All rights reserved.
+            </p>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
